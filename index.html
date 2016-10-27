@@ -1,1 +1,142 @@
-Hello World
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Rennie Haylock</title>
+  <meta name="description" content="Rennie Haylock's Projects">
+  <meta name="author" content="Rennie Haylock">
+  <link href="https://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet">
+  <style>
+    a {
+      text-decoration: none;
+    }
+
+    body {
+      background-color: #F8F8F8;
+      font-family: 'Lato', sans-serif;
+      margin: 0px;
+      font-weight: 300;
+      font-size: 15px;
+    }
+
+    h1 {
+      font-size: 50px;
+      color: black;
+      font-weight: 300;
+    }
+
+    h3 {
+      font-size: 18px;
+      font-weight: 300;
+      color: #A9AAB6;
+    }
+
+    h4 {
+      font-size: 21px;
+      font-weight: 300;
+      color: #A9AAB6;
+    }
+
+    .container {
+      max-width: 395px;
+      height: 100%;
+      background-color: white;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 100px 120px;
+      margin-top: 100px;
+      text-align: center;
+      border-radius: 8px;
+      box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.15);
+    }
+
+    .header {
+      border-bottom: 1px solid #DCDCDC;
+      padding-bottom: 50px;
+      line-height: 15px;
+    }
+
+    .content {
+      margin-top:20px;
+    }
+
+    .row {
+      width: 100%;
+    }
+
+    .item {
+      padding: 15px 24px;
+      width: 145px;
+      display: inline-block;
+      vertical-align: top;
+    }
+
+    .item p {
+      transition: color 0.5s ease;
+      color: #A9AAB6;
+      line-height: 22px;
+    }
+
+    .item:hover p {
+      color: #4A4A4A;
+    }
+
+    .item h4 {
+      transition: color 0.5s ease;
+    }
+
+    /* COLORS */
+
+    .item:hover .ferret-color {
+      color: #FF281F;
+    }
+    .item:hover .huntr-color {
+      color: #5A2CFF;
+    }
+    .item:hover .max-color {
+      color: #007BEE;
+    }
+    .item:hover .flatcade-color {
+      color: #1DE163;
+    }
+
+  </style>
+
+  <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>Rennie</h1>
+      <h3>Software Projects</h3>
+    </div>
+    <div class="content">
+      <div class="row">
+        <a href="http://getferret.com/" target="blank" class="item">
+          <h4 class="ferret-color">Ferret</h4>
+          <p>a quick, visually driven way to discover local bars, restaurants, and cafés.</p>
+        </a>
+        <a class="item">
+          <h4 class="huntr-color">Huntr</h4>
+          <p>a Kanban board for tracking your job applications</p>
+        </a>
+      </div>
+      <div class="row">
+        <a class="item" href="https://www.linkedin.com/pulse/playing-raspberry-pi-jasper-rennie-haylock" target="blank">
+          <h4 class="max-color">Max</h4>
+          <p>Jasper personal assistant using Raspberry Pie, and a Node app to save personalized question-answer combinations</p>
+        </a>
+        <a href="http://www.flatcade.co/" target="blank" class="item">
+          <h4 class="flatcade-color">FlatCade</h4>
+          <p>arcade games using FlatUI design framework</p>
+        </a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
